@@ -4,7 +4,7 @@ firstname VARCHAR(50),
 lastname VARCHAR(50), 
 dob VARCHAR(20), 
 amountdue VARCHAR(20),
-CONSTRAINT student_pk PRIMARY KEY (student_id)
+CONSTRAINT student_pk PRIMARY KEY (studentid)
 );
 
 DROP TABLE STUDENTS
